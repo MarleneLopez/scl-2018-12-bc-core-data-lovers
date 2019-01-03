@@ -99,7 +99,6 @@ const imprimirArregloPokemons = (pokemones) => {
       divPokemones.appendChild(imagen)
     }
   })
-  
 };
 */
 
