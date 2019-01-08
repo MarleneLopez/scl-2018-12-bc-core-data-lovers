@@ -1,5 +1,4 @@
-//const data = POKEMON.pokemon;
-
+//Filter
 const filterData = (data, condition) => {
   const filteredData = data.filter(element => {
       return element.type.includes(condition) === true
@@ -8,6 +7,13 @@ const filterData = (data, condition) => {
 }
 
 window.filterData = filterData;
+
+
+//Sort
+const sortData = (data, sortBy, sortOrder) =>{
+
+
+}
 
 
 

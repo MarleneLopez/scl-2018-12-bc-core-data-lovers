@@ -3,7 +3,7 @@ const data = POKEMON.pokemon;
 const containerRoot = document.getElementById("root");
 const selectType = document.getElementById("type");
 
-
+//Mostrar toda la data en CARDS
 const showData = (data) => {
     //Va ir guardado los datos entregados
     let result = "";
@@ -31,11 +31,11 @@ const showData = (data) => {
     return result;  
 }
 
-//Seleccionar filtrado
+//Filtrado, muestra en CARDS
 selectType.addEventListener("change", () => {
     let condition = selectType.options[selectType.selectedIndex].text;
     let filtered = filterData(data, condition);
-    console.log(filtered);
+    //console.log(filtered);
     containerRoot.innerHTML = "";
     filtered.forEach(element => {
         containerRoot.innerHTML +=
