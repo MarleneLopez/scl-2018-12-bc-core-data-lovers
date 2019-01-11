@@ -123,33 +123,75 @@ window.onload = showData(data);
 
 
 
-var ctx = document.getElementById('myChart').getContext('2d');
 
-var chart = new Chart(ctx, {
+
+
+
+const pokemonTypes = ["grass", "poison", "fire", "flying", "water", "bug", "normal","electric", "ground", "fighting", "psychic", "rock", "ice", "ghost","dragon"];
+let arreglo = [];
+const pokemonCountPerType = (pokemonData, pokemonType) => {
+  console.log(pokemonType);
+  console.log(pokemonData);
+  // Recorremons el array donde tenemos todos los tipos de pokemons
+  pokemonType.forEach( (type) => {
+    // console.log(type);
+    let contador = 0;
+
+    // Recorremos el array de pokemons
+    pokemonData.forEach( (pokemon) => {
+      //console.log(pokemon.type);
+      // Recorremos cada uno de sus tipos
+      pokemon.type.forEach( (uniqueType) => {
+        //console.log('cada type', uniqueType);
+        // Si el tipo de pokemon que estamos buscando corresponde a uno de los tipos del pokemon
+        // que estamos revisando incrementamos el contador
+        if (type == uniqueType.toLowerCase()) {
+          contador = contador + 1
+        }
+      })
+    });
+    console.log('Tipo: ', type, '  Cantidad: ', contador);
+    arreglo.push(contador)
+  });
+
+  console.log('Arreglo de valores', arreglo);
+
+};
+
+pokemonCountPerType(data, pokemonTypes);
+
+let ctx = document.getElementById('myChart').getContext('2d');
+let chart = new Chart(ctx, {
     // tipo de grafico
     type: 'bar',
-
-    // The data for our dataset
     data: {
-        labels: ["grass", "poison", "fire", "flying", "water", "bug", "normal", "electric", "ground", "fighting", "psychic", "rock", "ice", "ghost", "dragon"],
-
+        labels: ["grass", "poison", "fire", "flying", "water", "bug", "normal","electric", "ground", "fighting", "psychic", "rock", "ice", "ghost","dragon"],
+       
         datasets: [{
-
             label: "tipos de Pokemon",
-            backgroundColor: 'rgba(35,66, 132)',
-
-            borderColor: 'rgba (255, 99, 132)',
-            hoverBackgroundColor: 'rgba (234,123,45)',
-
-            data: [14, 33, 19, 12, 32, 12, 24, 9, 14, 8, 14, 11, 5, 3, 3],
-
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.5)',
+                'rgba(54, 162, 235, 0.5)',
+                'rgba(255, 206, 86, 0.5)',
+                'rgba(75, 192, 192, 0.5)',
+                'rgba(153, 102, 255, 0.5)',
+                'rgba(255, 159, 64, 0.5)',
+                'rgba(255, 99, 132, 0.5)',
+                'rgba(54, 162, 235, 0.5)',
+                'rgba(255, 206, 86, 0.5)',
+                'rgba(75, 192, 192, 0.5)',
+                'rgba(153, 102, 255, 0.5)',
+                'rgba(255, 159, 64, 0.5)',
+                'rgba(255, 99, 132, 0.5)',
+                'rgba(54, 162, 235, 0.5)',
+                'rgba(255, 206, 86, 0.5)',
+            ],
+            borderColor: 'black(255, 99, 132)',
+            hoverBackgroundColor: 'blue(234,123,45)',
+            data: arreglo,
         }]
     },
 
+    // Configuration options go here
     options: {}
 });
-
-
-
-
-
