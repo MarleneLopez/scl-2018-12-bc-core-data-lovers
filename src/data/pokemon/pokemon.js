@@ -10,7 +10,7 @@ const POKEMON = {
     ],
     "height": "0.71 m",
     "weight": "6.9 kg",
-    "candy": "Bulbasaur Candy",
+     "candy": "Bulbasaur Candy",
     "candy_count": 25,
     "egg": "2 km",
     "spawn_chance": 0.69,

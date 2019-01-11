@@ -1,6 +1,9 @@
-# **"POKE.data", Proyecto Data Lovers**
+![
+](https://lh3.googleusercontent.com/3VWFipJmOgBeaMMFLirbFAjzm08_dKUplftLY5B9HLePzhZwS33qTTyXkHBSGQnchEnx39KQl5aj "Header")
 
-  "POKE.data", es una plataforma tipo enciclopedia, donde puedes ver los datos de los Pokémon de la región de KANTO, como las debilidades y resistencias de su tipo frente a otros.
+# **"DataGO" Proyecto Data Lovers**
+
+  "DataGO", es una plataforma tipo enciclopedia, donde puedes ver los datos de los Pokémon de la región de KANTO, como las debilidades y resistencias de su tipo frente a otros.
 
 ¡Una información realmente útil para jugadores que busquen participar en batallas!.  
 
@@ -9,8 +12,23 @@
 -----------------------------
 ## **Encuestas**
 
+Se realizó una encuesta, que fue compartida a través de distintos grupos de PokémonGo en las redes sociales, recibiendo 52 respuestas.
+
+> Formulario hecho en [Google Forms](https://goo.gl/forms/E3LtaNA081hiwNRx2).
+
+Gráficas de resultado de las respuestas.
+
+![
+](https://lh3.googleusercontent.com/-YGkqqFt-CqY3dpuKS2qwrKRYKAkdBEqFJQA0rfvqSe2-nzqb3zfcWxWL3DIHd5N_ZrtAbsXs2IX "form1")
+
+![
+](https://lh3.googleusercontent.com/Th5Maw0pOYUk6rHpgsLT8fwTRgNt0I1ox-tMmXPCxOHcLvvG0CFS4OI5JpGKTbGicib6N7w3CVAD "form2")
+
+![
+](https://lh3.googleusercontent.com/rmEXTrwFaO4HpkOyk_kdcXkrDYVWCrMEqby9WakbXGXm9qqg_J2PztkvQwhCJZ87Jgw3Q-dWQUCm "form3")
 
 
+> Puedes ver estas imágenes en mejor resolución en el siguiente [Álbum](https://photos.app.goo.gl/oWmf5sVBFa7v4ZuU9).
 
 
 
@@ -84,7 +102,7 @@ Una vez entendimos nuestra persona, definimos las siguientes historias de usuari
 
 ## **Experiencia**
  
-Poke.data es una Aplicación similar a la Pokédex, que muestra información detallada de cada Pokémon (de la región de Kanto, primera generación), como sus debilidades, resistencias, tipo de Huevo del que eclosiona, etc. 
+"DataGO" es una Aplicación similar a la Pokédex, que muestra información detallada de cada Pokémon (de la región de Kanto, primera generación), como sus debilidades, resistencias, tipo de Huevo del que eclosiona, etc. 
 Está pensada para jugadores regulares, que no manejan estos datos y que buscan mejorar en el juego y subir de nivel. La información que adquieran en la aplicación les permitirá saber que tipo de Pokémon elegir para combatir entre amigos y en gimnasios, que tipo de huevos necesitan encubar si buscan un Pokémon "x", a que hora hay más probabilidades de atrapar los Pokémon que busca, entre otros.
 
 ## Requerimientos de la aplicación:
@@ -413,10 +431,16 @@ Respuestas e insights:
 
 
 
-## Diseño UI-5 
+## Diseño UI-5 (Interactivo)
 ----------------------------
 
-**Última iteración y rediseño de la UI (no aplicada al código)**
+
+
+
+
+
+
+**Última iteración y rediseño de la UI**
 
 En base a los testos se realizó la última iteración la cual considera los siguientes puntos:
 - Debe mostrar inmediatamente tarjetas de Pokémon al iniciar la página, como en el prototipo 3.
@@ -425,3 +449,27 @@ En base a los testos se realizó la última iteración la cual considera los sig
 - Se debe permitir salir de cualquier elemento emergente haciendo click fuera de este al igual que haciendo click en un botón de salir.
 - El ordenado se hará solo de 001 - 151 y se cambiará el nombre a simplemente "por número de Pokedéx".
 - Debe tener un autocompletado en la barra de búsqueda para evitar errores de búsqueda.
+
+> Para interactuar con el Prototipo 5 puedes entra a este link de  [Figma](https://www.figma.com/proto/LuZt6kIBjJfh0JjSgs6HwhCZ/Prototipo-5?node-id=0%3A1&scaling=scale-down-width).
+
+
+![
+](https://lh3.googleusercontent.com/8Rez-lC2tHOk_NAb2lu_8UDbBbVh5TyibM-z3qRKRykfSlQDMbzceopSZRgkWo7Wh7aF6n7AcZ_0 "Prototipo 5A")
+
+
+![
+](https://lh3.googleusercontent.com/zPJVVbYMfbFrGmdXEUiM6FieBqq6WOWjLYCalvQinB8H8eRrQuD444cprZ27uWu9kvComMsVt-HE "Prototipo 5D")
+
+
+![
+](https://lh3.googleusercontent.com/ox9L1V6ByEnE1HUujRHj_-dGUq72Csj5PSq652RoKGMkl64oEzX0zo8Yh7Oazmef1MJQrS0HIq_n "Prototipo 5B")
+
+
+![
+](https://lh3.googleusercontent.com/eXtrpG7GUjXSwbdqE83SCH4w0JaZywwupSbSAVuzmoaSs7ShLXkvL7Zb5PVcBIznCEROs9yGQLVS "Prototipo 5C")
+
+
+
+
+![
+](https://lh3.googleusercontent.com/uugTjtjo-Y8JmhmUpVFQkguWqFj_Pg5PnpLixkluexLYwHxLdD79kNleY0fBaOKOMPbZ_lDmd_0G "Prototipo 5E")

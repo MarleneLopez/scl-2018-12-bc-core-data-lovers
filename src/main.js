@@ -15,17 +15,39 @@ const showData = (data) => {
         result = containerRoot.innerHTML += `
         <div>
         <div class="card">
-        <div class="box">
-        <h3>${element.num}</h3>
+
+        <div class="card-header">
             <div class="img">
                 <img src="${element.img}">
             </div>
+
+            <div class="card-body"
+            <h3>${element.num}</h3>
             <h2>${element.name}</h2>
             <p>${element.type}</p>
+            </div>
         </div>
         </div>
         </div> `
 
+        /*
+            `<div>
+        <div class="card-deck">
+        <div class="card">
+                    <div class="img"><img src="${element.img}"></div>
+
+          <div class="card-body">
+          <h3>${element.num}</h3>
+            <h2>${element.name}</h2>
+          </div>
+
+          <div class="card-footer">
+          <p>${element.type}</p>
+
+          </div>
+        </div>
+        </div>
+      </div>`*/
 
     });
     return result;
@@ -42,13 +64,15 @@ selectType.addEventListener("change", () => {
             `
         <div>
         <div class="card">
-        <div class="box">
-        <h3>${element.num}</h3>
+        <div class="card-header">
             <div class="img">
                 <img src="${element.img}">
             </div>
+            <div class="card-body">
+            <h3>${element.num}</h3>
             <h2>${element.name}</h2>
             <p>${element.type}</p>
+            </div>
         </div>
         </div>
         </div> `
@@ -73,19 +97,14 @@ document.getElementById('sort').addEventListener('change', (evento) => {
     for (let i = 0; i < ver.length; i++) {
 
         //Se imprime en el id=vacío, la variable ver siendo recorrida. Muestro solo el nombre    
-        document.getElementById("root").innerHTML += //ver[i].name + "<br>";
-
-            //'<div class ="col s10"      >' + '<h5>' + ver[i].num + '</h5>' + '<h3>' + ver[i].name + '</h3>' + '<img src="' + ver[i].img + '">' + '<p>' + ver[i].type + '</p>' + '</div>';   // mostrando el rsultado en array para diferentes keys del objeto.;
-
-
-            /*result = containerRoot.innerHTML += */`
-            <div>
+        document.getElementById("root").innerHTML +=
+            `<div>
             <div class="card">
             <div class="box">
-            <h3>${ver[i].num}</h3>
                 <div class="img">
                     <img src="${ver[i].img}">
                 </div>
+                <h3>${ver[i].num}</h3>
                 <h2>${ver[i].name}</h2>
                 <p>${ver[i].type}</p>
             </div>
@@ -102,6 +121,33 @@ window.onload = showData(data);
 
 
 
+
+
+var ctx = document.getElementById('myChart').getContext('2d');
+
+var chart = new Chart(ctx, {
+    // tipo de grafico
+    type: 'bar',
+
+    // The data for our dataset
+    data: {
+        labels: ["grass", "poison", "fire", "flying", "water", "bug", "normal", "electric", "ground", "fighting", "psychic", "rock", "ice", "ghost", "dragon"],
+
+        datasets: [{
+
+            label: "tipos de Pokemon",
+            backgroundColor: 'rgba(35,66, 132)',
+
+            borderColor: 'rgba (255, 99, 132)',
+            hoverBackgroundColor: 'rgba (234,123,45)',
+
+            data: [14, 33, 19, 12, 32, 12, 24, 9, 14, 8, 14, 11, 5, 3, 3],
+
+        }]
+    },
+
+    options: {}
+});
 
 
 

@@ -1,52 +1,152 @@
+body{
+  background-image: url(img/fondo2.jpg);
+  background-attachment: fixed;
+  background-size: cover; 
+  font-family: 'Lato light', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+}
+
+
+/*.menu{
+  float: right;
+  margin: 100px;
+  background-repeat: no-repeat;
+  cursor:pointer;
+  border:none;
+  border : none;
+  color : transparent;
+  
+}*/
+#input-search{
+  width: 100%;
+  height: 57px;
+  margin-top: 40px;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #1D8696;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  box-sizing: border-box;
+  font-size: 20px; 
+  text-align: center;
+  }
+
+#gradient {
+  background: linear-gradient(162.86deg, rgba(82, 184, 136, 0.8) -0.84%, rgba(5, 163, 217, 0.8) 99.16%);
+  text-align: center;
+  }
+
+#type{
+  width:80%;
+  padding: 8px;
+  margin: 20px;
+  margin-left: 0;
+  border: none;
+  border-radius: 16px;
+  color: #1D8696;
+ 
+}
+#sort{
+  width:80%;
+  padding: 8px;
+  margin: 20px;
+  margin-right: 0;
+  border: none;
+  border-radius: 16px;
+  color: #1D8696;
+  font: 'Lato';
+}
+
 /* Estilos tarjetas */
 
 .container-fluid {
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
-    flex-wrap: wrap;
-    align-items: baseline;
-  }
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: center;
+}
+
+/*.cajas{
+    border: solid black;
+}*/
+
+
+.row img {
+  vertical-align: middle;
+  border-style: none;
+  width: 60%;
+  margin: 60px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+
+p {
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-top: 60px;
+ }
+
+.card {
+  width: 280px;
+  height: 300px;
+  margin: 1em;
+  padding: 0;
+  background: rgba(24, 24, 24, 0.9);
+    /*background: #383737;   */ 
+  box-shadow: 0 20px 50px rgba(0,0,0,.1);
+  border-radius: 10px;
+  text-align: center;
+  align-content: flex-start;
+}
+
+.card-body {
+  text-align: left;
+  padding: 1em;
+  width: 100%;
+  color: #fff;
+}
+
+.card-body h2, h3{
+  color: #fff;
+}
+
+.card-body p {
+  font-size: 14px;
+  background: #1D8696;
+  color: #fff;
+  display: inline-block;
+  padding: 3px 20px;
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+
   
-  .card {
-    width: 300px;
-    height: 300px;
-    margin: 1em;
-    background:#fff;
-    box-shadow: 0 20px 50px rgba(0,0,0,.1);
-    border-radius: 1em;
-    text-align: center;
-    align-content: flex-start;
-  }
-  
-  .card .box {
-    text-align: center;
-    padding: 1.25em;
-    width: 100%;
-  }
-  .card .box .img {
-    width: 100px;
-    height: 120px;
-    margin: 0 auto;
-  }
-  .card .box .img img {
-    width: 100%;
-    height: 100%;
-  }
-  .card .box h2 {
-    font-size: 20px;
-    color: #262626;
-    margin: 1.25em auto;
-  }
-  .card .box p {
-    font-size: 14px;
-    background: #e91e63;
-    color: #fff;
-    display: inline-block;
-    padding: 0.25em 0.6em;
-    border-radius: 15px;
-  
-  }
-  .card .box span {
-    display: inline-flex;
-  }
+
+
+/*
+.card .img {
+  width: 100px;
+  height: 120px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+*/
+
+
+@media screen and (max-width: 600px){
+}
