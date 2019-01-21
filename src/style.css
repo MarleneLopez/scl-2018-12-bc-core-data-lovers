@@ -76,6 +76,7 @@ body{
   align-content: flex-end;
   flex-wrap: wrap;
   align-items: baseline;
+  /*Centrar Cards en container*/
   justify-content: center;
 }
 

@@ -1,6 +1,30 @@
 require('../src/data.js');
 
+describe('filterData', () => {
 
+  it('debería ser una función', () => {
+    assert.equal(typeof filterData).toBe('function');
+  });
+
+  it('deberia retornar pokemones  "Electricos" al seleccionar "Electric"', () => {
+    asser.equal(filterData("Electric")).toBe("Electric");
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 describe('example', () => {
   it('is a function', () => {
     expect(typeof example).toBe('function');
@@ -36,3 +60,4 @@ it('deberia retornar pokemones en orden de la Z a la A cuando se pida orden de l
 it('deberia retornar pokemones  por tipo cuando se pida un tipo en especifico', () => {
   expect(tipo()).toBe(tipo)
 });
+*/

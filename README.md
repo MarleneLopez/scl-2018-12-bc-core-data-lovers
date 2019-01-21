@@ -1,7 +1,52 @@
-![
-](https://lh3.googleusercontent.com/3VWFipJmOgBeaMMFLirbFAjzm08_dKUplftLY5B9HLePzhZwS33qTTyXkHBSGQnchEnx39KQl5aj "Header")
+![](logo.png)
+
+
 
 # **"DataGO" Proyecto Data Lovers**
+## **Índice**
+
+- Preámbulo
+- Definición de usuario
+    - Encuestas
+    - Usuario (User persona)
+    - Historias de Usuario
+- Definición del producto
+    - Experiencia
+    - Planificación
+    - Mapa de flujo
+    - Wireframes (Prototipo de baja Fidelidad)
+- Desarrollo de Interfaz UI, Testeos de Usuario e Iteraciones
+    - Diseño UI-1
+    - Diseño UI-2
+    - Diseño UI-3
+       - Testeos de Usuario UI-3
+    - Diseño UI-4
+       - Testeos de Usuario UI-4
+    - Diseño UI-5
+       - Testeos de Usuario UI-5
+       - Evaluación Heurística
+    - Cambios a aplicar en próxima interación
+   ----------------------------------- 
+"DataGO" [EXTRA] Proyecto Data Lovers
+- Definición de usuario
+  - Encuestas
+  - Usuario (User persona)
+  - Historias de Usuario y Definition of Done
+- Iteración del producto
+  - Mapa de flujo
+  - Referente
+  - Prototipo de baja Fidelidad
+  - Prototipo de mediana Fidelidad
+- Desarrollo de Interfaz UI
+  - Mobile First
+  - Flujo de Usabilidad
+  - Evaluación Heurística
+  - Prototipo de escritorio
+      
+-----------------------------
+
+
+## **Preámbulo**
 
   "DataGO", es una plataforma tipo enciclopedia, donde puedes ver los datos de los Pokémon de la región de KANTO, como las debilidades y resistencias de su tipo frente a otros.
 
@@ -36,7 +81,7 @@ Gráficas de resultado de las respuestas.
 
 -----------------------------
 
-## **Usuario**
+## **Usuario (User persona)**
 
 
 Creamos el siguiente prototipo de usuario jugador de "Pókemon GO" para indentificar sus necesidades.
@@ -209,7 +254,7 @@ Apoyandonos del mapa de flujo realizamos nuestros prototipos de baja fidelidad l
 -----------------------------
 
 
-## **Desarrollo de Interfaz UI, Testeos de Usuario e Iteraciones**
+# **Desarrollo de Interfaz UI, Testeos de Usuario e Iteraciones**
 
 ## Diseño UI-1
 -----------------------------
@@ -473,3 +518,331 @@ En base a los testos se realizó la última iteración la cual considera los sig
 
 ![
 ](https://lh3.googleusercontent.com/uugTjtjo-Y8JmhmUpVFQkguWqFj_Pg5PnpLixkluexLYwHxLdD79kNleY0fBaOKOMPbZ_lDmd_0G "Prototipo 5E")
+
+## Testeos de Usuario UI-5
+
+**Primera UI a testear, ***Feedback e Insights*****
+
+
+Se le explica a la persona vagamente el concepto y funcionamiento de la siguiente forma:
+
+"Esta es una aplicación en la cual puedes ver información de los Pokémon de la región de Kanto."
+
+Se les presentan los siguientes casos para interactuar con la página web y se les pide decir todo lo que piensan durante el testeo:
+
+----------------------------------------
+
+
+
+**Caso 1:** Abres la aplicación y quieres buscar información de Charmander.
+
+**Caso 2:** Quieres ver las debilidades de la tercera evolución de Squirtle, que es un Pokémon de Agua.
+
+**Caso 3:** Buscar a un Pokémon que empieza con la letra A. No recuerdas su nombre.
+
+**Caso 4:** Quieres ver la información del primer Pokémon de la Pokédex.
+
+
+Respuestas e insights:
+ >Al pedirle buscar Pokémon de X tipo, no va al menú, sino que lo quiere escribir en el buscador.
+
+ >Piensa que el menú puede corresponder a configuracion o ingresar a una cuenta. 
+ 
+ >Aveces ven el botón " + ", aveces no logran verlo.
+
+ >Presiona la imagen del Pokémon para acceder a más información.
+
+ >No considera útil el botón de ordenar del 151-001.
+
+ >Le gustaría tener sugerencias de nombre o alguna ayuda al momento de escribir en el buscador.
+ >Piensa que el logo lo llevaría al inicio.
+
+
+----------------------------------------
+
+
+## **Evaluación Heurística**
+![](p5EH.jpg)
+
+
+
+-----------------------------
+## **Cambios a aplicar en próxima interación**
+
+- Eliminar botón " + ".
+- Estilo visual más parecido a PokémonGO.
+- Juntar los tipos de búsqueda en una pantalla.
+- Eliminar en botón de menú.
+- Mobile first.
+- Ver referentes de apps donde la búsqueda sea parte importante. 
+- Si hay logo, que este lleve al inicio.
+- Sugerencias de Pokémon a medida que se vaya escribiendo el nombre para evitar errores.
+- Barra de navegación que indique donde estás en todo momento.
+
+-----------------------------
+-----------------------------
+
+# **"DataGO" [EXTRA] Proyecto Data Lovers**
+Como trabajo extra de el Proyecto Data Lovers, se iteró en todo el proceso de Diseño de experiencia de Usuario. Se tomaron en cuenta el listado de cambios que se definieron luego de los testeos de usabilidad y la Evaluación Heurística del prototipo 5.
+
+## **Definición del Usuario**
+-----------------------------
+## **Encuestas**
+
+Con más respuestas de la encuesta compartida, se volvió a hacer un análisis de los resultados, concluyendo lo siguiente sobre el usuario promedio:
+
+- La edad promedio es de entre 20 y 35 años.
+- Juega diariamente.
+- Su nivel en el juego es de entre 30 - 40.
+- Bien podria ser un hombre o una mujer.
+- En el juego gusta de coleccionar Pokémones y combatir en gimnasios.
+- Le motiva el subir de nivel y coleccionar a todos los Pokémon.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![](resultados.jpg)
+
+
+
+
+
+
+
+## **Usuario (User persona)**
+Basandonos en los resultados de la encuesta y las conclusiones sobre el usuario promedio, se definió el siguiente User persona.
+
+
+
+
+
+
+
+
+![](Persona3.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## **Historias de Usuario y Definition of Done**
+
+Luego de haber definido nuestro Usuario y teniendo sus Necesidades, se trabajarán las siguientes historias de usuario con sus respectivos DoD, los cuales nos ayúdaran en nuestra planificación y desarrollo del prototipo:
+
+**Historia de Usuario 1**
+
+|         COMO   |QUIERO                         |PARA                         |
+|----------------|-------------------------------|-----------------------------|
+|Jugador regular de PokémonGO |` Un buscador` |Encontrar el Pokémon que busco y su información|
+
+**Definition of Done**
+
+Busqueda por nombre
+- [x] Al presionar "Buscar" se verá este tipo de busqueda
+- [x] Input para escribir nombre de Pokémon
+- [x] Se abrira el teclado al hacer click en la barra de busqueda
+- [x] Se verá un icono de carga al hacer click en la barra de busqueda (cuand aún no se haya escrito nada)
+- [x] A medida que se escriba, se verán sugerencias de Pokémon coincidentes con la letra escrita
+- [x] Hacer click en la imagen o nombre del pokemon sugerido para acceder al Pokémon buscado
+- [x] Se mostrará el Pokémon buscado
+- [x] Botón de volver a inicio
+- [x] Botón de volver a pantalla anterior
+
+Filtrar (ver pasos para filtrar en la otra historia de usuario)
+- [x] Se mostrarán los Pokémon ordenados por tipo
+- [x] Botón de volver a inicio
+- [x] Botón de volver a pantalla anterior
+
+Ordenar
+- [x] Al presionar "Buscar" se verá este tipo de busqueda
+- [x] Botones de ordenado por nombre y por número de la  Pokédex
+- [x] Título referente al orden seleccionado
+- [x] Se Mostrarán los Pokémon ordenados segun orden seleccionado
+- [x] Botón de volver a inicio
+- [x] Botón de volver a pantalla anterior
+
+Despues de encontrar el Pokémon buscado
+- [x] Al clickear sobre cada Pokémon se abriran mostrará más info
+- [x] Mostrar info más detallada de cada Pokémon: Tipo de caramelo, Tipo de Huevo, hora de aparición.
+
+**Historia de Usuario 1**
+
+
+|         COMO   |QUIERO                         |PARA                         |
+|----------------|-------------------------------|-----------------------------|
+|Jugador regular de PokémonGO |` Ver Pokémon por tipo` |Encontrar rapidamente a mi contrincante y sus debilidades|
+
+**Definition of Done**
+
+Filtrar por tipo
+- [x] Dentro de "Buscar" agregar filtrado
+- [x] Botones de filtro por tipo. Cada uno con el color representativo del tipo
+- [x] Mostrar todos los Pokémon del tipo seleccionado
+- [x] Título referente al tipo seleccionado
+- [x] Tip sobre el tipo de Pokémon seleccionado
+- [x] Al clickear sobre cada Pokémon se mostrará más info
+- [x] Mostrar el tipo con nombre de cada Pokémon en su info detallada
+- [x] Debilidades de cada Pokémon es su info detallada
+- [x] Botón de volver al inicio
+- [x] Botón de volver a "Buscar"
+-----------------------------
+
+## **Planificación**
+
+> La planificación de este Sprint está en el siguiente link de [Trello](https://trello.com/b/sJT2pxSd/extraux).
+
+
+
+-----------------------------
+
+# **Iteración del producto**
+
+
+## **Mapa de flujo**
+
+Al tener los Definition of Done, o requerimientos de la plataforma, se trabajó un mapa de flujo, para guiarnos en la usabilidad.
+
+
+
+![](mapaFlujo.jpg)
+
+
+
+
+## **Referente visual y de Usabilidad**
+
+Luego de múltiples análisis tipológicos, se seleccionó a la aplicación "Spotify" para ser el referente visual estrella. Su función de búsqueda de música, lo hace un potente referente por su usabilidad.
+
+Elementos como el menú inferior estático, se mantienen también en otras aplicaciones.
+Y un buscador de una sola pantalla, es la solución que se buscaba para esta iteración.
+
+
+
+![](referentes.png)
+
+Tamién se tomó referencia directa de la aplicación original, para tomar un lenguaje que fuera familiar para el usuario.
+
+![](pGO.png)
+
+
+
+
+
+## **Prototipo de baja Fidelidad**
+
+Teniendo ya los referentes, se procedió a generar los primeros sketches de la aplicación.
+
+
+![](wireframeP6.jpg)
+
+
+
+
+## **Prototipo de mediana Fidelidad**
+Diagramación de los elementos, sin aplicación de colores.
+
+
+
+
+![](p6media.png)
+
+
+
+
+
+
+
+
+## **Desarrollo de Interfaz UI**
+-----------------------------
+
+
+Tomando los referentes antes mencionados, se realiza el Diseño de la Interfaz de alta calidad en la plataforma [Figma](https://www.figma.com/file/gM0bHkObok4wh8ztF5RmCN2F/MobilePrototipo-6?node-id=0%3A1).
+(Interactiva)
+
+## **Mobile First**
+![](p6.png)
+
+
+Menú estático, que indica en que parte de la aplicación estás. Además tiene los vínculos que lleva al inicio o a la pantalla de Busqueda.
+
+
+
+
+
+
+![](menu.png)
+
+
+
+
+Al presionar "Buscar" del menú estático, se muestra una pantalla con los 3 tipos de búsqueda juntos.
+Cada pantalla lleva como título la función seleccionada, para indicar que se está realizando.
+
+
+
+
+
+
+![](agua.png)
+
+Al ingresar letras, se van mostrando sugerencias por cada letra ingresada. De esta forma ayudamos al usuario a buscar por nombre cuando no sabe el nombre exacto.
+
+![](sugerencias.png)
+
+
+
+
+
+Se muestra solo con colores los tipos de cada Pokémon, para reducir elementos en la pantalla donde se muestran todos los Pokémon. Estos tipos se muestran en el detalle de cada Pokémon.
+
+
+![](numero.png)
+
+## **Flujo de usabilidad**
+
+![](flowmap.jpg)
+
+
+## **Evaluación Heurística**
+
+![](p6EH.jpg)
+
+
+## **Prototipo Escritorio**
+
+Tomando como referencia la versión Desktop de "Spotify" se traspasó el diseño para celular a su versión de [Escritorio](https://www.figma.com/file/KwhrGl5kGF1Gsyadfoi41QGj/WebPrototipo-6).
+
+![](webAlta.png)
+
+
+
+
+

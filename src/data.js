@@ -1,5 +1,5 @@
-//Filter
 const filterData = (data, condition) => {
+
   const filteredData = data.filter(element => {
     return element.type.includes(condition) === true
   })
@@ -9,17 +9,9 @@ const filterData = (data, condition) => {
 window.filterData = filterData;
 
 
-//Sort
-
-
-
-// Metodo para ordrnar los pokemons alfabeticamente "a-z" o "z-a"
-// Por hacer: Orden numerico
-//Sort
 
 
 const sortData = (data, sortBy) => {
-  // console.log(data, sortOrder); 
 
   if (sortBy == 'a-z') {
 
@@ -71,6 +63,7 @@ const sortData = (data, sortBy) => {
   }
 
 }
+window.sortData = sortData;
 
 
 

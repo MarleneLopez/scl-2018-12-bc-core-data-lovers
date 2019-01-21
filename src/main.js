@@ -30,25 +30,6 @@ const showData = (data) => {
         </div>
         </div> `
 
-        /*
-            `<div>
-        <div class="card-deck">
-        <div class="card">
-                    <div class="img"><img src="${element.img}"></div>
-
-          <div class="card-body">
-          <h3>${element.num}</h3>
-            <h2>${element.name}</h2>
-          </div>
-
-          <div class="card-footer">
-          <p>${element.type}</p>
-
-          </div>
-        </div>
-        </div>
-      </div>`*/
-
     });
     return result;
 }
@@ -76,7 +57,7 @@ selectType.addEventListener("change", () => {
         </div>
         </div>
         </div> `
-    })
+    });
 })
 
 
@@ -159,7 +140,7 @@ const pokemonCountPerType = (pokemonData, pokemonType) => {
 };
 
 pokemonCountPerType(data, pokemonTypes);
-
+    
 let ctx = document.getElementById('myChart').getContext('2d');
 let chart = new Chart(ctx, {
     // tipo de grafico
@@ -171,7 +152,7 @@ let chart = new Chart(ctx, {
             label: "tipos de Pokemon",
             backgroundColor: [
                 'rgba(255, 99, 132, 0.5)',
-                'rgba(54, 162, 235, 0.5)',
+                'rgba(54, 162,git  235, 0.5)',
                 'rgba(255, 206, 86, 0.5)',
                 'rgba(75, 192, 192, 0.5)',
                 'rgba(153, 102, 255, 0.5)',
